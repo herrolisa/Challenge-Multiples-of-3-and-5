@@ -8,7 +8,7 @@ exports.sumOfAMultiple = function( n ) {
 
   for (var i = n - 1; i >= 0; i--) {
     if (i % 3 === 0 || i % 5 === 0) {
-      sum+=i;
+      sum += i;
     }
   }
 
